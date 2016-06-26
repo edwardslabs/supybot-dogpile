@@ -1,0 +1,4 @@
+requests
+random
+urllib
+bs4

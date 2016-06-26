@@ -1,0 +1,45 @@
+ERROR 2016-06-26T00:56:26 supybot Invalid user dictionary file, resetting to empty.
+ERROR 2016-06-26T00:56:26 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: 'conf/users.conf'
+ERROR 2016-06-26T00:56:26 supybot Invalid channel database, resetting to empty.
+ERROR 2016-06-26T00:56:26 supybot Exact error: FileNotFoundError: [Errno 2] No such file or directory: 'conf/channels.conf'
+WARNING 2016-06-26T00:56:26 supybot Couldn't open ignore database: [Errno 2] No such file or directory: 'conf/ignores.conf'
+INFO 2016-06-26T00:56:26 supybot Shutdown initiated.
+INFO 2016-06-26T00:56:26 supybot Killing Driver objects.
+INFO 2016-06-26T00:56:26 supybot Killing Irc objects.
+INFO 2016-06-26T00:56:26 supybot Shutdown complete.
+INFO 2016-06-26T00:59:42 supybot Shutdown initiated.
+INFO 2016-06-26T00:59:42 supybot Killing Driver objects.
+INFO 2016-06-26T00:59:42 supybot Killing Irc objects.
+INFO 2016-06-26T00:59:42 supybot Shutdown complete.
+INFO 2016-06-26T01:00:54 supybot Shutdown initiated.
+INFO 2016-06-26T01:00:54 supybot Killing Driver objects.
+INFO 2016-06-26T01:00:54 supybot Killing Irc objects.
+INFO 2016-06-26T01:00:54 supybot Shutdown complete.
+INFO 2016-06-26T01:01:42 supybot Shutdown initiated.
+INFO 2016-06-26T01:01:42 supybot Killing Driver objects.
+INFO 2016-06-26T01:01:42 supybot Killing Irc objects.
+INFO 2016-06-26T01:01:43 supybot Shutdown complete.
+INFO 2016-06-26T01:02:48 supybot Shutdown initiated.
+INFO 2016-06-26T01:02:48 supybot Killing Driver objects.
+INFO 2016-06-26T01:02:48 supybot Killing Irc objects.
+INFO 2016-06-26T01:02:48 supybot Shutdown complete.
+INFO 2016-06-26T01:03:27 supybot Shutdown initiated.
+INFO 2016-06-26T01:03:27 supybot Killing Driver objects.
+INFO 2016-06-26T01:03:27 supybot Killing Irc objects.
+INFO 2016-06-26T01:03:27 supybot Shutdown complete.
+INFO 2016-06-26T01:04:14 supybot Shutdown initiated.
+INFO 2016-06-26T01:04:14 supybot Killing Driver objects.
+INFO 2016-06-26T01:04:14 supybot Killing Irc objects.
+INFO 2016-06-26T01:04:14 supybot Shutdown complete.
+INFO 2016-06-26T01:06:09 supybot Shutdown initiated.
+INFO 2016-06-26T01:06:09 supybot Killing Driver objects.
+INFO 2016-06-26T01:06:09 supybot Killing Irc objects.
+INFO 2016-06-26T01:06:09 supybot Shutdown complete.
+INFO 2016-06-26T01:07:13 supybot Shutdown initiated.
+INFO 2016-06-26T01:07:13 supybot Killing Driver objects.
+INFO 2016-06-26T01:07:13 supybot Killing Irc objects.
+INFO 2016-06-26T01:07:13 supybot Shutdown complete.
+INFO 2016-06-26T01:08:51 supybot Shutdown initiated.
+INFO 2016-06-26T01:08:51 supybot Killing Driver objects.
+INFO 2016-06-26T01:08:51 supybot Killing Irc objects.
+INFO 2016-06-26T01:08:51 supybot Shutdown complete.
