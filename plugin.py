@@ -73,7 +73,7 @@ class Dogpile(callbacks.Plugin):
         soup = BeautifulSoup(r.content)
         result_url = parse.unquote(parse.unquote(soup.find('div', id="webResults").find_all('a', {'class':'resultDisplayUrl'})[0]['href']).split('ru=')[1].split('&')[0])
         result_description = soup.find('div', id="webResults").find_all('div', {'class':'resultDescription'})[0].text
-        print("\x02{}\x02 -- {}".format(result_url, result_description))
+        irc.reply("\x02{}\x02 -- {}".format(result_url, result_description))
 
 Class = Dogpile
 
