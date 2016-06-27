@@ -64,6 +64,7 @@ class Dogpile(callbacks.Plugin):
         linklist = soup.find('div', id="webResults").find_all('a', {'class':'resultThumbnailLink'})
         image = parse.unquote(parse.unquote(random.choice(linklist)['href']).split('ru=')[1].split('&')[0])
         irc.reply(image)
+    gis = wrap(gis, ['string'])
 
     def g(self, irc, msg, args, text):
         """Uses the dogpile search engine to find shit on the web."""
@@ -74,7 +75,7 @@ class Dogpile(callbacks.Plugin):
         result_url = parse.unquote(parse.unquote(soup.find('div', id="webResults").find_all('a', {'class':'resultDisplayUrl'})[0]['href']).split('ru=')[1].split('&')[0])
         result_description = soup.find('div', id="webResults").find_all('div', {'class':'resultDescription'})[0].text
         irc.reply("\x02{}\x02 -- {}".format(result_url, result_description))
-
+    g = wrap(g, ['string'])
 Class = Dogpile
 
 
